@@ -13,4 +13,4 @@ public class ExC3 {
 	System.out.println("Average of array : " + totalForArry/integerArray.length);
 	}
 }
-
++
