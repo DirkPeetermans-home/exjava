@@ -2,7 +2,4 @@ Salary of Dirk at 20 is 2000.0
 Salary of Dirk at 25 is 2060.0
 Salary of Dirk at 30 is 2121.8
 Salary of Dirk at 35 is 2185.454
-Salary of Dirk at 40 is 2251.01762
-Salary of Dirk at 45 is 2318.5481486000003
-Salary of Dirk at 50 is 2388.1045930580003
 Maximum salary reached

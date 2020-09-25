@@ -51,6 +51,10 @@ public class ExE1 {
 				
 				for ( int i=ageWhenStarted; i<ageWhenStarted +35 ; i +=5) {
 					
+					if (i > age) {
+						break;
+					}
+					
 					bw.write("Salary of " + firstName + " at " + i + " is " + startingSalary + "\n\r");
 					startingSalary *= 1.03;
 				}
