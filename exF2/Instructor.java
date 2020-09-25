@@ -63,28 +63,8 @@ public class Instructor {
 	}
 	
 				
-	public static void main(String[] args) {
-				
-		boolean ageOK=false;			
-		Instructor Instr1 = new Instructor("Dirk","Peetermans",52, 20,2000.5);
-					
-		Instr1.printSalaryHistory();
-				
-	}
-		/**
-		private boolean isAgeInteger() {
-			while (!ageOK) {
-			try {
-				Integer.parseInt(Instr1.getAge());
-				return true;
-			} catch (NumberFormatException e) {
-				System.out.println("Please enter a valid age");	
-			}	
-		}
-		}
-		*/
 			
-		private void printSalaryHistory() {
+		public void printSalaryHistory() {
 			
 			try {
 				BufferedWriter bw = null;
