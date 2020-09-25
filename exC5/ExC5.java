@@ -11,31 +11,32 @@ public class ExC5 {
 	String cheapOrExpensive;
 	int numberOfDays = 0;
 	double pricePerDay = 0;
+	boolean daysOK = true;
 	
 	System.out.println("Enter course title : ");		
 	String title = myInput.nextLine();
 	 
 		
-	while (true) {
+	while (daysOK) {
 	try {
 		System.out.println("Course duration : ");
 		numberOfDays = Integer.parseInt(myInput.nextLine());
-		break;
+		daysOK = false;
 	} catch (NumberFormatException e) {
 		System.out.println("Please enter an Integer value here");	
-		continue;
-	}	
+		}	
 	}
 	
-	while (true) {		
+	daysOK = true;
+	
+	while (daysOK) {		
 	try {
 		System.out.println("Price per day : ");
 		pricePerDay = Double.parseDouble(myInput.nextLine());
-		break;
+		daysOK = false;
 	} catch (NumberFormatException e) {
 		System.out.println("Please enter an Double/Interger value here");
-		continue;		
-	}
+			}
 	}
 		 
 	 boolean priorKnowledgeReq = true;
