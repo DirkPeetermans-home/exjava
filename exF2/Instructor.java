@@ -64,9 +64,9 @@ public class Instructor {
 	
 				
 			
-		public void printSalaryHistory() {
+		public void printSalaryHistory() throws IOException {
 			
-			try {
+			
 				BufferedWriter bw = null;
 				File file = new File("Salaryhistory.txt");
 				
@@ -88,13 +88,7 @@ public class Instructor {
 				}
 				bw.write("Maximum salary reached");
 				bw.close();
-
-			
-			} catch (IOException ioe) {
-				System.out.println("FileError : " + ioe);
-			}
-			
-					
+								
 		}
 		
 	}
