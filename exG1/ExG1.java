@@ -6,7 +6,7 @@ import java.util.Scanner;
 //import java.io.IOException;
 import java.io.*;
 
-public class ExE1 {
+public class ExG1 {
 				
 	public static void main(String[] args) {
 		
@@ -32,8 +32,8 @@ public class ExE1 {
 			}	
 		}
 		
-		printSalaryHistory(age, ageWhenStarted, startingSalary, firstName, lastName);
-		//printSalaryHistory(age, ageWhenStarted, startingSalary, firstName, lastName, "Salaryhistory.txt");
+		//printSalaryHistory(age, ageWhenStarted, startingSalary, firstName, lastName);
+		printSalaryHistory(age, ageWhenStarted, startingSalary, firstName, lastName, "Salaryhistory2.txt");
 		
 	}
 	
